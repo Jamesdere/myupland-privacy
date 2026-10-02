@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Upland — Privacy Policy</title>
+<!--
+  **One file, no dependencies, no build step.** It is published by dropping it into a public
+  GitHub repository and switching Pages on; nothing has to be compiled and nothing can go
+  stale. Plain HTML rather than Markdown on purpose: Markdown on GitHub Pages renders through
+  Jekyll, which needs a theme configured before it looks like anything, and that is a second
+  thing to get wrong on the one page Apple is going to read.
+
+  The source of truth is `docs/privacy-policy.md` in the app repository. If one changes, change
+  the other.
+-->
+<style>
+  :root {
+    --ink: #1b1a17;
+    --quiet: #5c574e;
+    --rule: #e2ddd3;
+    --paper: #fbf9f5;
+    --accent: #9a5b24;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #ece7dd; --quiet: #a39c8f; --rule: #332f29;
+      --paper: #16150f; --accent: #d08a44;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 48px 16px 96px;
+    background: var(--paper);
+    color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 36rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .3em; letter-spacing: -0.01em; }
+  h2 {
+    font-size: 1.2rem; margin: 2.4em 0 .6em; letter-spacing: -0.005em;
+    padding-top: 1.4em; border-top: 1px solid var(--rule);
+  }
+  h3 { font-size: 1rem; margin: 1.8em 0 .4em; color: var(--accent); }
+  .updated { color: var(--quiet); font-size: .9rem; margin: 0 0 2em; }
+  ul { padding-left: 1.2em; }
+  li { margin: .5em 0; }
+  strong { font-weight: 600; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 3.5em; padding-top: 1.4em; border-top: 1px solid var(--rule);
+    color: var(--quiet); font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>My Upland — Privacy Policy</h1>
+  <p class="updated">Last updated: 1 October 2026</p>
+
+  <p>My Upland is a hunting journal. This explains what it keeps, what leaves your phone, and
+  how to get rid of all of it.</p>
+
+  <p>It is written to be read rather than to be survived. If anything here is unclear, that is
+  a fault worth reporting.</p>
+
+  <h2>The short version</h2>
+  <ul>
+    <li><strong>Your journal is yours.</strong> It is not sold, not shared, and not used to
+    advertise anything.</li>
+    <li><strong>Nothing tracks you.</strong> There is no advertising, no analytics, and no
+    third-party tracking of any kind in this app.</li>
+    <li><strong>The private parts of a record are encrypted on your phone</strong> before they
+    are sent anywhere, with a key only you hold.</li>
+    <li><strong>Your photographs stay in your own photo library.</strong> The app never uploads
+    them.</li>
+    <li><strong>You can delete your account and everything in it from inside the app</strong>,
+    at any time.</li>
+  </ul>
+
+  <h2>What you give us</h2>
+  <p><strong>An email address and a password</strong>, to make an account. The address is how
+  you sign in and how you reset a forgotten password. It is not used to send marketing.</p>
+  <p>An account is required before any record can be saved. That is so a season's journal can
+  survive a lost phone — it is kept on a server so it can be given back to you.</p>
+
+  <h2>What the app keeps about your hunting</h2>
+  <p>A record of a hunt or a scouting trip, which may include the date and time, the bird you
+  were after, what you saw and what came down, the cover, the dogs and the people with you, the
+  weather at the time, where it happened, and anything you wrote down.</p>
+
+  <h3>What is encrypted before it leaves your phone</h3>
+  <p>These are scrambled on the device with a key that only you hold. We cannot read them:</p>
+  <ul>
+    <li><strong>Exactly where you were</strong> — the precise coordinates of a hunt, a flush or
+    a place.</li>
+    <li><strong>Everything you wrote</strong> — notes on the day, on the dogs, on your gear, and
+    the headline of a hunt.</li>
+    <li><strong>The names of the people you hunt with</strong>, and what you call them. They are
+    somebody else's name, and they never agreed to be in this app.</li>
+    <li><strong>Bird counts.</strong></li>
+  </ul>
+
+  <h3>What is not encrypted</h3>
+  <p>So the app can sort, group and read your season back to you, some things are stored plainly
+  on the server:</p>
+  <ul>
+    <li><strong>An approximate area</strong> — a short code that narrows a position to roughly a
+    neighbourhood, not a stand.</li>
+    <li><strong>The name you gave a place</strong>, as you typed it.</li>
+    <li><strong>Dates and times</strong>, the species, the cover type, how far you walked, and
+    how many birds were recovered.</li>
+  </ul>
+  <p>That distinction is the honest one and it is worth reading twice. Your exact coordinates
+  are unreadable to us; the name you gave a place and the rough area are not.</p>
+
+  <h3>Your photographs</h3>
+  <p><strong>The app never uploads a photograph.</strong> It stores a reference to a picture in
+  your own iOS photo library and nothing more. If you delete the photo from your library it is
+  gone — the app only ever held a pointer to it.</p>
+
+  <h2>Who else sees anything</h2>
+  <p><strong>A weather service.</strong> To show what the conditions were, the app asks
+  Open-Meteo about a position. It receives a coordinate and a date, and nothing about you — no
+  account, no name, no identifier.</p>
+  <p><strong>Our own server.</strong> Your records are stored on a database we run, hosted by
+  Supabase, so they can be restored to a new phone.</p>
+  <p><strong>Nobody else.</strong> There is no advertising network, no analytics service, and no
+  crash reporter. We do not sell, rent or share your journal, and there is no business
+  arrangement under which anybody could ask us for it.</p>
+
+  <h2>Your location</h2>
+  <p>The app asks for your location so it can record where a hunt happened and fetch the weather
+  there. <strong>It is only ever read while you are using the app</strong> — never in the
+  background and never when it is closed.</p>
+  <p>You can refuse. The app still works; records are logged without a position.</p>
+
+  <h2>Deleting it</h2>
+  <p><strong>In the app: Profile → Delete Account.</strong> It removes your account and every
+  record attached to it from our server. It tells you what it is about to delete before it does
+  it.</p>
+  <p>This cannot be undone, which is the point of it.</p>
+
+  <h2>Your encryption key</h2>
+  <p>The key that scrambles the private parts of your journal is created on your phone. A copy
+  is kept on the server, locked by your password, so that signing in on a new phone can give it
+  back to you.</p>
+  <p><strong>A recovery key is offered when you create an account.</strong> If you forget your
+  password and have no recovery key, the encrypted parts of your journal cannot be recovered by
+  us or by anyone else. That is what it means for the key to be yours.</p>
+
+  <h2>Children</h2>
+  <p>My Upland is not intended for children and does not knowingly collect anything from
+  them.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the date at the top changes with it.</p>
+
+  <h2>Contact</h2>
+  <p>Questions, or anything here that turns out not to be true:
+  <!-- REPLACE THIS before publishing. It is the one blank in the document. -->
+  <strong>[contact address]</strong></p>
+
+  <footer>My Upland — a hunting journal.</footer>
+
+</main>
+</body>
+</html>
